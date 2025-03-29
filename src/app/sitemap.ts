@@ -1,8 +1,8 @@
 import { MetadataRoute } from 'next'
 
-export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://loke.dev'
+const baseUrl = 'https://example.com'
 
+export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
       url: baseUrl,

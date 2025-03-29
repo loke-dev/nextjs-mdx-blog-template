@@ -19,8 +19,14 @@ import {
 } from '@/components/ui/card'
 
 export const metadata: Metadata = {
-  title: 'Home',
-  description: 'Welcome to loke.dev - Personal website of Loke',
+  description: 'Welcome to Next.js MDX Blog - A modern blog template',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    siteName: 'Next.js MDX Blog',
+    url: 'https://example.com',
+    description: 'A modern blog template built with Next.js and MDX',
+  },
 }
 
 export default async function Home() {
@@ -31,12 +37,12 @@ export default async function Home() {
   const websiteJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'loke.dev',
-    url: 'https://loke.dev',
-    description: 'Personal website of Loke',
+    name: 'Next.js MDX Blog',
+    url: 'https://example.com',
+    description: 'A modern blog template built with Next.js and MDX',
     author: {
       '@type': 'Person',
-      name: 'Loke',
+      name: 'Your Name',
     },
   }
 

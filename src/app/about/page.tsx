@@ -82,11 +82,13 @@ export default function About() {
                   </Avatar>
                 </Animated>
                 <Animated variants={fadeInSlideUp} delay={0.3}>
-                  <h1 className="text-3xl font-bold">Loke</h1>
+                  <h1 className="text-3xl font-bold">About</h1>
                 </Animated>
                 <Animated variants={fadeInSlideUp} delay={0.4}>
-                  <p className="text-muted-foreground text-lg">
-                    Frontend Developer
+                  <p className="text-muted-foreground">
+                    Hi there! This is a modern blog template built with Next.js
+                    and MDX. You can customize this section to tell your story
+                    and share your background with your readers.
                   </p>
                 </Animated>
               </div>
@@ -129,7 +131,7 @@ export default function About() {
                   </CardHeader>
                   <CardContent className="space-y-4">
                     <p>
-                      Hi there! I'm Loke, a frontend developer with{' '}
+                      Hi there! I'm a frontend developer with{' '}
                       {yearsOfExperience} years of experience crafting modern,
                       responsive, and accessible web applications. My journey in
                       web development began in 2017, and I've been passionate

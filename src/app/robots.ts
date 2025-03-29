@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://loke.dev/sitemap.xml',
+    sitemap: 'https://nextjs-mdx-blog-template.vercel.app/sitemap.xml',
   }
 }

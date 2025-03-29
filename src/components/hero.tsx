@@ -36,8 +36,8 @@ export function Hero() {
               </p>
             </div>
             <Animated variants={fadeInSlideUp} delay={0.5}>
-              <h1 className="text-primary text-4xl font-bold tracking-tight sm:text-6xl">
-                Loke.dev
+              <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
+                Next.js MDX Blog
               </h1>
             </Animated>
           </div>

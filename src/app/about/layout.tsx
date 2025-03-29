@@ -3,7 +3,7 @@ import { JsonLd } from '@/components/jsonLd'
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Learn more about Loke and his work',
+  description: 'Learn more about the author and their work',
 }
 
 export default function AboutLayout({
@@ -14,8 +14,8 @@ export default function AboutLayout({
   const personJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Person',
-    name: 'Loke',
-    url: 'https://loke.dev',
+    name: 'Your Name',
+    url: 'https://nextjs-mdx-blog-template.vercel.app',
     jobTitle: 'Frontend Developer',
     worksFor: {
       '@type': 'Organization',

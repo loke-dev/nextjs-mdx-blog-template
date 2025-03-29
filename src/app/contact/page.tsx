@@ -8,20 +8,31 @@ import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Textarea } from '@/components/ui/textarea'
 
+export const metadata = {
+  title: 'Contact',
+  description: 'Get in touch',
+  openGraph: {
+    title: 'Contact',
+    description: 'Get in touch',
+    authors: [{ name: 'Your Name' }],
+    email: 'your.email@example.com',
+  },
+}
+
 export default function Contact() {
   const contactJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ContactPage',
-    name: 'Contact Loke',
-    description: 'Contact page for Loke',
+    name: 'Contact',
+    description: 'Contact page',
     mainEntity: {
       '@type': 'Person',
-      name: 'Loke',
-      email: 'hello@loke.dev',
+      name: 'Your Name',
+      email: 'your.email@example.com',
       address: {
         '@type': 'PostalAddress',
-        addressLocality: 'Stockholm',
-        addressCountry: 'Sweden',
+        addressLocality: 'City',
+        addressCountry: 'Country',
       },
     },
   }
@@ -46,7 +57,7 @@ export default function Contact() {
                         <Mail className="h-6 w-6 opacity-60" />
                       </div>
                       <div className="ml-3 text-base opacity-70">
-                        <p>hello@loke.dev</p>
+                        <p>your.email@example.com</p>
                       </div>
                     </div>
                   </div>

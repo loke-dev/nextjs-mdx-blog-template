@@ -1,8 +1,8 @@
-# Loke.dev
+# Next.js MDX Blog Template
 
-A modern, minimalist, and highly performant Next.js 15 template for personal websites, blogs, and portfolios. This template uses the latest features from Next.js, React 19, and Tailwind CSS 4.
+A modern, minimalist blog template built with Next.js, MDX, and Tailwind CSS. Perfect for developers who want to share their thoughts and showcase their work.
 
-![Next.js Personal Website Template](https://placehold.co/600x400?text=Next.js+Personal+Website+Template)
+## Features
 
 ## ✨ Features
 

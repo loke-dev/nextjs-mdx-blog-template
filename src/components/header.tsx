@@ -38,7 +38,7 @@ export const Header = () => {
       <div className="container mx-auto flex h-14 items-center justify-between px-4">
         <div className="mr-4 flex">
           <Link href="/" className="font-bold">
-            loke.dev
+            Next.js MDX Blog
           </Link>
         </div>
         <nav className="hidden items-center space-x-6 text-sm font-medium md:flex">
@@ -69,7 +69,7 @@ export const Header = () => {
                 <div className="flex-1">
                   <div className="mt-2 mb-8">
                     <SheetTitle className="text-lg font-bold">
-                      <Link href="/">loke.dev</Link>
+                      <Link href="/">Next.js MDX Blog</Link>
                     </SheetTitle>
                   </div>
                   <nav className="flex flex-col space-y-3">
