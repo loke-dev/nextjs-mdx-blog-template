@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import { JsonLd } from '@/components/jsonLd'
 
 export const metadata: Metadata = {
   title: 'Contact',
@@ -9,10 +10,32 @@ export const metadata: Metadata = {
   },
 }
 
+const contactJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ContactPage',
+  name: 'Contact',
+  description: 'Contact page',
+  mainEntity: {
+    '@type': 'Person',
+    name: 'Your Name',
+    email: 'your.email@example.com',
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'City',
+      addressCountry: 'Country',
+    },
+  },
+}
+
 export default function ContactLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
-  return <>{children}</>
+  return (
+    <>
+      <JsonLd data={contactJsonLd} />
+      {children}
+    </>
+  )
 }
