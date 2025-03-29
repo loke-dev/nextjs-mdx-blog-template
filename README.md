@@ -2,7 +2,7 @@
 
 A modern, minimalist blog template built with Next.js, MDX, and Tailwind CSS. Perfect for developers who want to share their thoughts and showcase their work.
 
-## Features
+<img width="1251" alt="Image" src="https://github.com/user-attachments/assets/8a263c60-778a-404d-bca5-b9e44cdfedc6" />
 
 ## ✨ Features
 
@@ -19,6 +19,7 @@ A modern, minimalist blog template built with Next.js, MDX, and Tailwind CSS. Pe
 - 🦮 **Accessibility** focused design
 - 🏎️ **Performance optimized**
 - 📱 **Responsive** on all devices
+- 🏃🏻‍♂️‍➡️ **Animations** with Motion
 - 🎞️ **View Transitions API** support
 - 🔒 **Code quality** with Husky & lint-staged
 
