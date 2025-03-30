@@ -47,7 +47,7 @@ A modern, minimalist blog template built with Next.js, MDX, and Tailwind CSS. Pe
 1. Clone this repository
 
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git my-website
+   git clone https://github.com/loke-dev/nextjs-mdx-blog-template my-website
    cd my-website
    ```
 
