@@ -30,11 +30,17 @@ export function Hero() {
           className="relative z-10 space-y-6"
         >
           <div className="space-y-4">
-            <div className="bg-muted inline-block rounded-full px-4 py-1.5">
-              <p className="text-muted-foreground text-sm font-medium">
-                Web Developer
-              </p>
-            </div>
+            <Animated
+              variants={fadeInSlideLeft}
+              className="relative z-10 space-y-6"
+              delay={0.9}
+            >
+              <div className="bg-muted inline-block rounded-full px-4 py-1.5">
+                <p className="text-muted-foreground text-sm font-medium">
+                  Starter template
+                </p>
+              </div>
+            </Animated>
             <Animated variants={fadeInSlideUp} delay={0.5}>
               <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">
                 Next.js MDX Blog
@@ -54,11 +60,11 @@ export function Hero() {
           <Animated
             variants={fadeInSlideUp}
             delay={0.9}
-            className="flex items-center gap-4"
+            className="flex flex-wrap items-center gap-4"
           >
             <Button asChild size="lg" className="relative overflow-hidden">
-              <Link href="/about">
-                <span className="relative z-10">About Me</span>
+              <Link href="https://vercel.com/new/clone?repository-url=https://github.com/loke-dev/nextjs-mdx-blog-template">
+                <span className="relative z-10">Use this template</span>
               </Link>
             </Button>
             <Button
@@ -67,8 +73,8 @@ export function Hero() {
               size="lg"
               className="relative overflow-hidden"
             >
-              <Link href="/contact">
-                <span className="relative z-10">Get in Touch</span>
+              <Link href="https://github.com/loke-dev/nextjs-mdx-blog-template">
+                <span className="relative z-10">Source code</span>
               </Link>
             </Button>
           </Animated>

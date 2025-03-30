@@ -134,7 +134,7 @@ pnpm format
 
 This template is optimized for deployment on Vercel, but can be deployed on any platform that supports Next.js.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/your-repo-name)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/loke-dev/nextjs-mdx-blog-template)
 
 ## 📄 License
 
