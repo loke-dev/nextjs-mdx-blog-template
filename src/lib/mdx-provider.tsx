@@ -27,6 +27,7 @@ export async function MDXProvider({ content }: MDXProviderProps) {
       }}
       options={{
         parseFrontmatter: false,
+        blockJS: false, // v6 default strips JSX `code={...}`; posts are trusted source
         mdxOptions: {
           remarkPlugins: [remarkGfm],
           rehypePlugins: [
