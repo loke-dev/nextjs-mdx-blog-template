@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react'
 import { Footer } from '@/components/footer'
 import { Header } from '@/components/header'
 import { ViewTransitionWrapper } from '@/components/viewTransitionWrapper'
@@ -79,6 +80,7 @@ export default function RootLayout({
           </main>
           <Footer />
         </Providers>
+        <Analytics />
       </body>
     </html>
   )
