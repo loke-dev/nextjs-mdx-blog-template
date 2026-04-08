@@ -1,96 +1,62 @@
 # Next.js MDX Blog Template
 
-A modern, minimalist blog template built with Next.js, MDX, and Tailwind CSS. Perfect for developers who want to share their thoughts and showcase their work.
+A minimalist blog template built with Next.js, MDX, and Tailwind CSS. Write posts in MDX, get server components, view transitions, and dark mode out of the box.
 
-<img width="1251" alt="Image" src="https://github.com/user-attachments/assets/8a263c60-778a-404d-bca5-b9e44cdfedc6" />
+<img width="1251" alt="Next.js MDX Blog Template" src="https://github.com/user-attachments/assets/8a263c60-778a-404d-bca5-b9e44cdfedc6" />
 
-## ✨ Features
+## Features
 
-- 🚀 **Next.js 15** with App Router
-- ⚡ **React 19** with Server Components
-- 🎨 **Tailwind CSS 4** for styling
-- 🧩 **shadcn/ui components** via Radix UI
-- 🌙 **Dark/Light mode** with next-themes
-- 📝 **MDX support** for blog posts
-- 🔍 **SEO optimized** with metadata
-- 📊 **Typed** with TypeScript
-- 🧹 **Linting** with ESLint
-- 💅 **Code formatting** with Prettier
-- 🦮 **Accessibility** focused design
-- 🏎️ **Performance optimized**
-- 📱 **Responsive** on all devices
-- 🏃🏻‍♂️‍➡️ **Animations** with Motion
-- 🎞️ **View Transitions API** support
-- 🔒 **Code quality** with Husky & lint-staged
+- **Next.js 15** — App Router with React 19 Server Components
+- **MDX Blog** — Write posts in Markdown with JSX components
+- **Tailwind CSS 4** — Utility-first styling with dark mode
+- **View Transitions** — Smooth page transitions via the View Transitions API
+- **Animations** — Motion library integration
+- **SEO Optimised** — Meta tags, Open Graph, structured data
+- **Accessible** — Built on Radix UI primitives (shadcn/ui)
+- **Code Highlighting** — Shiki for syntax highlighting
+- **Developer Ready** — TypeScript, ESLint, Prettier, Husky
 
-## 🧰 Tech Stack
+## Stack
 
-- [Next.js 15](https://nextjs.org/)
-- [React 19](https://react.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS 4](https://tailwindcss.com/)
-- [Radix UI](https://radix-ui.com/)
-- [Lucide Icons](https://lucide.dev/)
-- [MDX](https://mdxjs.com/) for blog posts
-- [Shiki](https://shiki.style/) for code highlighting
-- [Geist Font](https://vercel.com/font) for typography
+- [Next.js 15](https://nextjs.org)
+- [React 19](https://react.dev)
+- [TypeScript](https://typescriptlang.org)
+- [Tailwind CSS 4](https://tailwindcss.com)
+- [Radix UI](https://radix-ui.com) / [shadcn/ui](https://ui.shadcn.com)
+- [MDX](https://mdxjs.com)
+- [Shiki](https://shiki.style)
+- [Geist Font](https://vercel.com/font)
 
-## 📋 Prerequisites
+## Get Started
 
-- [Node.js](https://nodejs.org/en/) (v20 or higher)
-- [pnpm](https://pnpm.io/) (v8 or higher)
-
-## 🚀 Getting Started
-
-### Installation
-
-1. Clone this repository
-
-   ```bash
-   git clone https://github.com/loke-dev/nextjs-mdx-blog-template my-website
-   cd my-website
-   ```
-
-2. Install dependencies
-
-   ```bash
-   pnpm install
-   ```
-
-3. Start the development server
-
-   ```bash
-   pnpm dev
-   ```
-
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## 📁 Project Structure
-
-```
-/
-├── public/           # Static assets
-├── src/
-│   ├── app/          # App router pages
-│   ├── components/   # React components
-│   │   ├── mdx/      # MDX-specific components
-│   │   └── ui/       # UI components (shadcn)
-│   ├── lib/          # Utility functions
-│   ├── posts/        # MDX blog posts
-│   ├── styles/       # Global styles
-│   └── types/        # TypeScript types
-├── .eslintrc.js      # ESLint configuration
-├── .prettierrc       # Prettier configuration
-├── next.config.ts    # Next.js configuration
-├── tailwind.config.ts # Tailwind CSS configuration
-└── tsconfig.json     # TypeScript configuration
+```bash
+git clone https://github.com/loke-dev/nextjs-mdx-blog-template my-website
+cd my-website
+pnpm install
+pnpm dev
 ```
 
-## 📝 Usage
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-### Creating Blog Posts
+Requires Node.js v20+ and pnpm v8+.
 
-Add new MDX files to the `src/posts` directory:
+## Project Structure
+
+```
+src/
+├── app/          # App router pages
+├── components/   # React components
+│   ├── mdx/      # MDX-specific components
+│   └── ui/       # UI components (shadcn)
+├── lib/          # Utility functions
+├── posts/        # MDX blog posts
+├── styles/       # Global styles
+└── types/        # TypeScript types
+```
+
+## Writing Posts
+
+Add MDX files to `src/posts/`:
 
 ```mdx
 ---
@@ -104,45 +70,19 @@ description: A description of my new post
 This is the content of my post written in MDX.
 ```
 
-### Customization
+## Customise
 
-- Update site metadata in `src/app/layout.tsx`
-- Modify the theme in `src/styles/globals.css`
-- Add or modify components in `src/components`
-- Update pages in `src/app` directory
+1. Update site metadata in `src/app/layout.tsx`
+2. Modify the theme in `src/styles/globals.css`
+3. Add or modify components in `src/components/`
+4. Update pages in `src/app/`
 
-## 🛠️ Development
-
-```bash
-# Run development server
-pnpm dev
-
-# Build for production
-pnpm build
-
-# Start production server
-pnpm start
-
-# Run linting
-pnpm lint
-
-# Format code
-pnpm format
-```
-
-## 🚢 Deployment
-
-This template is optimized for deployment on Vercel, but can be deployed on any platform that supports Next.js.
+## Deploy
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/loke-dev/nextjs-mdx-blog-template)
 
-## 📄 License
+Works on any platform that supports Next.js.
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## License
 
-## 🙏 Acknowledgements
-
-- [Next.js](https://nextjs.org/) team for the incredible framework
-- [Vercel](https://vercel.com/) for hosting and deployment
-- [shadcn/ui](https://ui.shadcn.com/) for the beautiful components
-- [Tailwind CSS](https://tailwindcss.com/) for the utility-first CSS framework
+MIT
