@@ -50,7 +50,7 @@ export default function About() {
     },
     {
       category: 'DevOps',
-      items: ['Docker', 'CI/CD', 'Vercel', 'GitHub Actions'],
+      items: ['Docker', 'CI/CD', 'Cloudflare Workers', 'GitHub Actions'],
     },
     { category: 'Tools', items: ['Git', 'VS Code', 'Figma'] },
   ]

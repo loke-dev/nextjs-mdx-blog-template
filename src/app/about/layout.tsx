@@ -15,7 +15,7 @@ export default function AboutLayout({
     '@context': 'https://schema.org',
     '@type': 'Person',
     name: 'Your Name',
-    url: 'https://nextjs-mdx-blog-template.vercel.app',
+    url: 'https://nextjs-mdx-blog.loke.dev',
     jobTitle: 'Frontend Developer',
     worksFor: {
       '@type': 'Organization',

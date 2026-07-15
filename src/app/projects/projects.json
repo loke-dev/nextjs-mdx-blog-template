@@ -31,7 +31,7 @@
       "id": 4,
       "title": "Portfolio Website Generator",
       "description": "A tool that generates beautiful portfolio websites from markdown files",
-      "technologies": ["Next.js", "MDX", "Tailwind CSS", "Vercel"],
+      "technologies": ["Next.js", "MDX", "Tailwind CSS", "Cloudflare Workers"],
       "link": "https://example.com/portfolio",
       "github": "https://github.com/example/portfolio",
       "featured": false

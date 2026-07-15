@@ -63,7 +63,7 @@ export function Hero() {
             className="flex flex-wrap items-center gap-4"
           >
             <Button asChild size="lg" className="relative overflow-hidden">
-              <Link href="https://vercel.com/new/clone?repository-url=https://github.com/loke-dev/nextjs-mdx-blog-template">
+              <Link href="https://nextjs-mdx-blog.loke.dev">
                 <span className="relative z-10">Use this template</span>
               </Link>
             </Button>

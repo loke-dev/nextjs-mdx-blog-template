@@ -1,6 +1,5 @@
 import type { Metadata, Viewport } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
-import { Analytics } from '@vercel/analytics/react'
 import { Footer } from '@/components/footer'
 import { Header } from '@/components/header'
 import { ViewTransitionWrapper } from '@/components/viewTransitionWrapper'
@@ -31,14 +30,14 @@ export const metadata: Metadata = {
     default: 'Next.js MDX Blog',
     template: '%s | Next.js MDX Blog',
   },
-  metadataBase: new URL('https://example.com'),
+  metadataBase: new URL('https://nextjs-mdx-blog.loke.dev'),
   description: 'A modern blog template built with Next.js and MDX',
   authors: [{ name: 'Your Name' }],
   creator: 'Your Name',
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://example.com',
+    url: 'https://nextjs-mdx-blog.loke.dev',
     siteName: 'Next.js MDX Blog',
     title: 'Next.js MDX Blog',
     description: 'A modern blog template built with Next.js and MDX',
@@ -80,7 +79,6 @@ export default function RootLayout({
           </main>
           <Footer />
         </Providers>
-        <Analytics />
       </body>
     </html>
   )

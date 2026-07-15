@@ -25,7 +25,7 @@ A minimalist blog template built with Next.js, MDX, and Tailwind CSS. Write post
 - [Radix UI](https://radix-ui.com) / [shadcn/ui](https://ui.shadcn.com)
 - [MDX](https://mdxjs.com)
 - [Shiki](https://shiki.style)
-- [Geist Font](https://vercel.com/font)
+- Geist Font
 
 ## Get Started
 
@@ -79,7 +79,7 @@ This is the content of my post written in MDX.
 
 ## Deploy
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/loke-dev/nextjs-mdx-blog-template)
+[Live demo](https://nextjs-mdx-blog.loke.dev)
 
 Works on any platform that supports Next.js.
 
