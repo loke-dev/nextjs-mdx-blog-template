@@ -1,0 +1,8 @@
+{
+  "$schema": "https://unpkg.com/wrangler@4/config-schema.json",
+  "name": "nextjs-mdx-blog-template",
+  "main": "worker.js",
+  "compatibility_date": "2026-07-15",
+  "assets": { "directory": "out", "binding": "ASSETS" },
+  "routes": [{ "pattern": "nextjs-mdx-blog.loke.dev", "custom_domain": true }]
+}
